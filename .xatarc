@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://l-Rave-bor-s-workspace-cpr7fr.eu-west-1.xata.sh/db/xata-nextjs",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
