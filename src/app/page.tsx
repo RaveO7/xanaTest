@@ -4,7 +4,7 @@ import Link from 'next/link';
 const xata = getXataClient();
 
 export default async function Home({ searchParams }: { searchParams: { q: string } }) {
-  let posts = null;
+  let posts: any = null;
 
   if (searchParams.q) {
     posts = await xata.db.Posts.search(searchParams.q, { fuzziness: 2 });
